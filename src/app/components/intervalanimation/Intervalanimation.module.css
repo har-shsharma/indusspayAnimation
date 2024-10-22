@@ -1,0 +1,221 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.textContainer {
+    width: 46.94vw;
+    height: 9.50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-top: 112px;
+}
+
+.textHeading {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    letter-spacing: -0.75px;
+    color: #5865F2;
+}
+
+.subHeading {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    letter-spacing: -1.25px;
+    font-variation-settings: 'slnt' 0;
+    color: #10165A;
+}
+
+.animationContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    height: 40vh;
+}
+
+.animationImageContainer {
+    width: 42.36vw;
+    height: 58vh;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 32px;
+    background-color: #7333A8;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: -0.5px;
+    text-align: left;
+
+}
+
+.animationImageContainer2 {
+    width: 42.36vw;
+    height: 58vh;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 32px;
+    background-color: #19BF6A;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: -0.5px;
+    text-align: left;
+
+}
+
+.animationImageContainer3 {
+    width: 42.36vw;
+    height: 58vh;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 32px;
+    background-color: #ED4245;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: -0.5px;
+    text-align: left;
+
+}
+
+.animationText1,
+.animationText2,
+.animationText3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.75px;
+    color: #000000;
+}
+
+.animationImage {
+    position: relative;
+    right: -200px;
+}
+
+.animationImage2 {
+    position: relative;
+    right: -100px;
+    bottom: -37px;
+}
+
+.animationImage3 {
+    position: relative;
+    right: -150px;
+    top: 50px;
+}
+
+.text1Icon {
+    background-image: url("/images/icon1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.text2Icon {
+    background-image: url("/images/icon2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text3Icon {
+    background-image: url("/images/icon3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.animationText1Container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.animationText2Container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.animationText3Container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.animationTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.animationTextInactive {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.75px;
+    color: #4B4F7780;
+}
+
+.loader circle {
+    animation: dash 3s linear infinite;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: 265%;
+    }
+}
+
+.inactive circle {
+    animation: none;
+    stroke-dashoffset: 0;
+    stroke: #FCE0E0;
+}
+
+.loaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

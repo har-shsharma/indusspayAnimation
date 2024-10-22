@@ -1,0 +1,82 @@
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.textHeader {
+    width: 676px;
+    height: 80px;
+}
+
+.mainTextHeading {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    letter-spacing: -0.75px;
+    color: #5865F2;
+}
+
+.subTextHeading {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    letter-spacing: -1.25px;
+    text-align: left;
+    color: #10165A;
+}
+
+.animationTextItem1,
+.animationTextItem2,
+.animationTextItem3,
+.animationTextItem4,
+.animationTextItem5,
+.animationTextItem6,
+.animationTextItem7 {
+    width: 438px;
+    height: 175px;
+}
+
+.animationTextHeading {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.75px;
+    text-align: left;
+    color: #10165A;
+    margin-top: 100px;
+}
+
+.animationTextContent {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #4B4F77;
+    margin-top: 20px;
+}
+
+.animationTextContainer {
+    margin-top: -80px;
+    /* height:500px;
+    overflow: hidden; */
+}
+
+.animationImageContainer {
+    width: 476px;
+    height: 379px;
+    border-radius: 24px;
+    background-color: black;
+}
+
+.animationOuterContainer {
+    display: flex;
+    gap: 100px;
+}
